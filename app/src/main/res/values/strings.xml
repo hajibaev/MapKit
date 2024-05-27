@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">YandexMap</string>
+    <string name="search">Куда поедете?</string>
+    <string name="start_position_search">Откуда поедете?</string>
+    <string name="search_error">Search error, check your network connection</string>
+    <string name="suggest_error">Suggest error, check your network connection</string>
+    <string name="route_network_error">Routes request error due network issues</string>
+    <string name="route_unknown_error">Routes request unknown error</string>
+    <string name="location_unavailable">Местоположение недоступно</string>
+    <string name="lack_of_permission">Отсутствия разрешения</string>
+    <string name="error_routes">Извините, выбранное вами местоположение маршрута недоступно. Пожалуйста, выберите другое местоположение и повторите попытку</string>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="TopCornerRadius" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+    </style>
+
+</resources>
